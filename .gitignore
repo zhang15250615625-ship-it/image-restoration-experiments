@@ -1,0 +1,22 @@
+# Recreated/downloaded dependencies
+**/official_ddrm/
+**/weights/
+**/__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+# Local meeting and authoring files
+work/
+paper/
+assets/paper/
+*.pdf
+*.pptx
+*.docx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.part
+*.tmp
+~$*

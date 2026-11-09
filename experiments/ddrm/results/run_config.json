@@ -1,0 +1,102 @@
+{
+  "scope": "4-image pretrained inference study; not the paper ImageNet benchmark; no training",
+  "paper": "Denoising Diffusion Restoration Models (NeurIPS 2022)",
+  "official_commit": "32b6b3ccfda532ba01c9cc5b6e7456c3a06a6ca2",
+  "checkpoint": "weights/256x256_diffusion_uncond.pt",
+  "checkpoint_sha256": "a37c32fffd316cd494cf3f35b339936debdc1576dad13fe57c42399a5dbc78b1",
+  "operator": "official SuperResolution(channels=3,img_dim=256,ratio=4): nonoverlapping 4x4 average pooling",
+  "noise_std_01": 0.0,
+  "sigma_0_model_space": 0.0,
+  "etaA": 0.85,
+  "etaC": 0.85,
+  "etaB": 1.0,
+  "schedule": "official range(0,1000,1000//steps); 20 steps starts at t=950; 100 starts at t=990",
+  "steps": [
+    20,
+    100
+  ],
+  "images": [
+    "astronaut",
+    "coffee",
+    "chelsea",
+    "rocket"
+  ],
+  "seed": 20261116,
+  "seed_rule": "base seed plus image index; reset for each step count",
+  "precision": "official convert_to_fp16() for UNet torso; fp32 diffusion/operator arithmetic",
+  "batch_size": 1,
+  "model_configuration": {
+    "data": {
+      "dataset": "ImageNet",
+      "image_size": 256,
+      "channels": 3,
+      "logit_transform": false,
+      "uniform_dequantization": false,
+      "gaussian_dequantization": false,
+      "random_flip": true,
+      "rescaled": true,
+      "num_workers": 32,
+      "subset_1k": true,
+      "out_of_dist": false
+    },
+    "model": {
+      "type": "openai",
+      "in_channels": 3,
+      "out_channels": 3,
+      "num_channels": 256,
+      "num_heads": 4,
+      "num_res_blocks": 2,
+      "attention_resolutions": "32,16,8",
+      "dropout": 0.0,
+      "resamp_with_conv": true,
+      "learn_sigma": true,
+      "use_scale_shift_norm": true,
+      "use_fp16": true,
+      "resblock_updown": true,
+      "num_heads_upsample": -1,
+      "var_type": "fixedsmall",
+      "num_head_channels": 64,
+      "image_size": 256,
+      "class_cond": false,
+      "use_new_attention_order": false
+    },
+    "diffusion": {
+      "beta_schedule": "linear",
+      "beta_start": 0.0001,
+      "beta_end": 0.02,
+      "num_diffusion_timesteps": 1000
+    },
+    "sampling": {
+      "batch_size": 8,
+      "last_only": true
+    }
+  },
+  "metrics": "PSNR/SSIM on float32 clipped RGB [0,1], full 256x256, no border crop; SSIM skimage default 7x7/uniform/sample covariance",
+  "timing": "single warm forward before runs; torch.cuda.synchronize before/after sampler, includes official CPU trajectory copies; excludes model loading, preprocessing, metric calculation, image saves",
+  "baseline_timing": "one CPU interpolation call per image, no repeated timing; not a robust benchmark",
+  "determinism": "seeded Python/NumPy/PyTorch; cuDNN deterministic=True benchmark=False; TF32=False; no cross-version bitwise guarantee",
+  "hardware": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "gpu_total_mib": 6143.5,
+  "python": "3.10.19 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 16:41:31) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch_cuda": "11.8",
+  "packages": {
+    "torch": "2.1.1+cu118",
+    "torchvision": "0.16.1+cu118",
+    "numpy": "1.25.2",
+    "Pillow": "10.4.0",
+    "scikit-image": "0.24.0",
+    "scipy": "1.9.3",
+    "PyYAML": "6.0.3",
+    "tqdm": "4.67.3",
+    "matplotlib": "3.10.8"
+  },
+  "adaptations": [
+    "Standalone wrapper replaces official CLI/data loader.",
+    "Batch size 1 for 6GB GPU.",
+    "Loads checkpoint on CPU before CUDA to avoid transient duplicate GPU weights.",
+    "Official efficient_generalized_steps, SuperResolution, create_model and model YAML used without edits.",
+    "Uses center-cropped public scikit-image samples rather than ImageNet.",
+    "Adds fair baselines, measurement-consistency metrics, synchronized timing, memory measurement, output manifests."
+  ]
+}

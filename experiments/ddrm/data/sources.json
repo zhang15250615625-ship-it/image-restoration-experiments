@@ -1,0 +1,82 @@
+[
+  {
+    "name": "astronaut",
+    "loader": "skimage.data.astronaut",
+    "source_array_sha256": "a8c429c18afa7b0fd5673e598d73a21225d94c864a71bbb3885126fdecb41071",
+    "original_shape": [
+      512,
+      512,
+      3
+    ],
+    "center_crop_box": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "resize": "Pillow bicubic, 256x256; stored uint8 RGB PNG",
+    "prepared_file_sha256": "127718a3851b27faa3b2765e277c6c1c930eb40a89d3ed6ea5cf9d27a9bb3163",
+    "documentation_url": "https://scikit-image.org/docs/0.24.x/api/skimage.data.html#skimage.data.astronaut",
+    "provenance_and_license": "Color image of the astronaut Eileen Collins.\n\nPhotograph of Eileen Collins, an American astronaut. She was selected\nas an astronaut in 1992 and first piloted the space shuttle STS-63 in\n1995. She retired in 2006 after spending a total of 38 days, 8 hours\nand 10 minutes in outer space.\n\nThis image was downloaded from the NASA Great Images database\n<https://flic.kr/p/r9qvLn>`__.\n\nNo known copyright restrictions, released into the public domain.\n\nReturns\n-------\nastronaut : (512, 512, 3) uint8 ndarray\n    Astronaut image."
+  },
+  {
+    "name": "coffee",
+    "loader": "skimage.data.coffee",
+    "source_array_sha256": "0ce2b51640b9c95f19617f03eabf40c3f0368589cc1ee1190b70966165ac184f",
+    "original_shape": [
+      400,
+      600,
+      3
+    ],
+    "center_crop_box": [
+      100,
+      0,
+      500,
+      400
+    ],
+    "resize": "Pillow bicubic, 256x256; stored uint8 RGB PNG",
+    "prepared_file_sha256": "6e7728e81c211bec7424a11a591eefb3fd15247aeabe9dd615090979fada06f9",
+    "documentation_url": "https://scikit-image.org/docs/0.24.x/api/skimage.data.html#skimage.data.coffee",
+    "provenance_and_license": "Coffee cup.\n\nThis photograph is courtesy of Pikolo Espresso Bar.\nIt contains several elliptical shapes as well as varying texture (smooth\nporcelain to coarse wood grain).\n\nNotes\n-----\nNo copyright restrictions.  CC0 by the photographer (Rachel Michetti).\n\nReturns\n-------\ncoffee : (400, 600, 3) uint8 ndarray\n    Coffee image."
+  },
+  {
+    "name": "chelsea",
+    "loader": "skimage.data.chelsea",
+    "source_array_sha256": "416b729128bfb2c3d1eb69bf9b1734a796293abc17939267b2dc94f8a5784031",
+    "original_shape": [
+      300,
+      451,
+      3
+    ],
+    "center_crop_box": [
+      75,
+      0,
+      375,
+      300
+    ],
+    "resize": "Pillow bicubic, 256x256; stored uint8 RGB PNG",
+    "prepared_file_sha256": "4962af45eaf5c7accdc21aed9b60b2bc1e0e2c6bf577d3531e00934bdde1737f",
+    "documentation_url": "https://scikit-image.org/docs/0.24.x/api/skimage.data.html#skimage.data.chelsea",
+    "provenance_and_license": "Chelsea the cat.\n\nAn example with texture, prominent edges in horizontal and diagonal\ndirections, as well as features of differing scales.\n\nNotes\n-----\nNo copyright restrictions.  CC0 by the photographer (Stefan van der Walt).\n\nReturns\n-------\nchelsea : (300, 451, 3) uint8 ndarray\n    Chelsea image."
+  },
+  {
+    "name": "rocket",
+    "loader": "skimage.data.rocket",
+    "source_array_sha256": "3d4435cc745752b7f9724df88c6e18817de3ce7e3d2d71c55f85f7831e68f197",
+    "original_shape": [
+      427,
+      640,
+      3
+    ],
+    "center_crop_box": [
+      106,
+      0,
+      533,
+      427
+    ],
+    "resize": "Pillow bicubic, 256x256; stored uint8 RGB PNG",
+    "prepared_file_sha256": "a570e684c73c884827400d6dad1dfefa5141a7c5e073a975e830d2963b583974",
+    "documentation_url": "https://scikit-image.org/docs/0.24.x/api/skimage.data.html#skimage.data.rocket",
+    "provenance_and_license": "Launch photo of DSCOVR on Falcon 9 by SpaceX.\n\nThis is the launch photo of Falcon 9 carrying DSCOVR lifted off from\nSpaceX's Launch Complex 40 at Cape Canaveral Air Force Station, FL.\n\nNotes\n-----\nThis image was downloaded from\n`SpaceX Photos\n<https://www.flickr.com/photos/spacexphotos/16511594820/in/photostream/>`__.\n\nThe image was captured by SpaceX and `released in the public domain\n<http://arstechnica.com/tech-policy/2015/03/elon-musk-puts-spacex-photos-into-the-public-domain/>`_.\n\nReturns\n-------\nrocket : (427, 640, 3) uint8 ndarray\n    Rocket image."
+  }
+]

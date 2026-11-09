@@ -1,0 +1,358 @@
+{
+  "method": "ddrm_20",
+  "scope": "4 fixed public images, 3 independent seeds each; no selected best samples",
+  "standard_deviation": "sample standard deviation (ddof=1); not a confidence interval",
+  "rows": [
+    {
+      "run": 1,
+      "base_seed": 20261116,
+      "image": "astronaut",
+      "method": "ddrm_20",
+      "seed": 20261116,
+      "nfe": 20,
+      "seconds": 5.23283480014652,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1758.0,
+      "operator_max_abs_error": 3.5762786865234375e-07,
+      "psnr_db": 23.74488046569095,
+      "ssim": 0.8262918591499329,
+      "measurement_rmse": 0.0019849755335599184,
+      "measurement_rmse_before_clip": 0.0014163664309307933,
+      "clipped_fraction": 0.06294759114583333
+    },
+    {
+      "run": 1,
+      "base_seed": 20261116,
+      "image": "coffee",
+      "method": "ddrm_20",
+      "seed": 20261117,
+      "nfe": 20,
+      "seconds": 4.558540899772197,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1760.0,
+      "operator_max_abs_error": 3.5762786865234375e-07,
+      "psnr_db": 27.415832666538474,
+      "ssim": 0.858658492565155,
+      "measurement_rmse": 0.0012074426049366593,
+      "measurement_rmse_before_clip": 0.001173809403553605,
+      "clipped_fraction": 0.0013783772786458333
+    },
+    {
+      "run": 1,
+      "base_seed": 20261116,
+      "image": "chelsea",
+      "method": "ddrm_20",
+      "seed": 20261118,
+      "nfe": 20,
+      "seconds": 4.9343961998820305,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1760.0,
+      "operator_max_abs_error": 2.384185791015625e-07,
+      "psnr_db": 29.121821612549294,
+      "ssim": 0.7701547145843506,
+      "measurement_rmse": 0.0011748499237000942,
+      "measurement_rmse_before_clip": 0.0011748499237000942,
+      "clipped_fraction": 0.0
+    },
+    {
+      "run": 1,
+      "base_seed": 20261116,
+      "image": "rocket",
+      "method": "ddrm_20",
+      "seed": 20261119,
+      "nfe": 20,
+      "seconds": 4.945333499927074,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1760.0,
+      "operator_max_abs_error": 3.5762786865234375e-07,
+      "psnr_db": 30.14373887440999,
+      "ssim": 0.911477267742157,
+      "measurement_rmse": 0.0009778820676729083,
+      "measurement_rmse_before_clip": 0.0009771488839760423,
+      "clipped_fraction": 8.138020833333333e-05
+    },
+    {
+      "run": 2,
+      "base_seed": 20261216,
+      "image": "astronaut",
+      "method": "ddrm_20",
+      "seed": 20261216,
+      "nfe": 20,
+      "seconds": 4.827088600024581,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1758.0,
+      "operator_max_abs_error": 3.5762786865234375e-07,
+      "psnr_db": 23.843362644518017,
+      "ssim": 0.8254745602607727,
+      "measurement_rmse": 0.0018342770636081696,
+      "measurement_rmse_before_clip": 0.0013663920108228922,
+      "clipped_fraction": 0.06588236490885417
+    },
+    {
+      "run": 2,
+      "base_seed": 20261216,
+      "image": "coffee",
+      "method": "ddrm_20",
+      "seed": 20261217,
+      "nfe": 20,
+      "seconds": 4.6184687002096325,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1758.0,
+      "operator_max_abs_error": 3.5762786865234375e-07,
+      "psnr_db": 27.471548375013676,
+      "ssim": 0.8590649962425232,
+      "measurement_rmse": 0.0012072883546352386,
+      "measurement_rmse_before_clip": 0.0011833866592496634,
+      "clipped_fraction": 0.0013427734375
+    },
+    {
+      "run": 2,
+      "base_seed": 20261216,
+      "image": "chelsea",
+      "method": "ddrm_20",
+      "seed": 20261218,
+      "nfe": 20,
+      "seconds": 4.798940199892968,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1758.0,
+      "operator_max_abs_error": 2.384185791015625e-07,
+      "psnr_db": 29.168439921581978,
+      "ssim": 0.7697687745094299,
+      "measurement_rmse": 0.0011863346444442868,
+      "measurement_rmse_before_clip": 0.0011863346444442868,
+      "clipped_fraction": 0.0
+    },
+    {
+      "run": 2,
+      "base_seed": 20261216,
+      "image": "rocket",
+      "method": "ddrm_20",
+      "seed": 20261219,
+      "nfe": 20,
+      "seconds": 4.484749299939722,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1758.0,
+      "operator_max_abs_error": 3.5762786865234375e-07,
+      "psnr_db": 30.20068589131518,
+      "ssim": 0.9096570014953613,
+      "measurement_rmse": 0.0009819454280659556,
+      "measurement_rmse_before_clip": 0.0009817855898290873,
+      "clipped_fraction": 4.57763671875e-05
+    },
+    {
+      "run": 3,
+      "base_seed": 20261316,
+      "image": "astronaut",
+      "method": "ddrm_20",
+      "seed": 20261316,
+      "nfe": 20,
+      "seconds": 4.4895603999029845,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1758.0,
+      "operator_max_abs_error": 3.5762786865234375e-07,
+      "psnr_db": 23.80610202643844,
+      "ssim": 0.8281719088554382,
+      "measurement_rmse": 0.0017852257005870342,
+      "measurement_rmse_before_clip": 0.0013553048484027386,
+      "clipped_fraction": 0.07059224446614583
+    },
+    {
+      "run": 3,
+      "base_seed": 20261316,
+      "image": "coffee",
+      "method": "ddrm_20",
+      "seed": 20261317,
+      "nfe": 20,
+      "seconds": 4.240316500188783,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1758.0,
+      "operator_max_abs_error": 3.5762786865234375e-07,
+      "psnr_db": 27.3638723862907,
+      "ssim": 0.8556268215179443,
+      "measurement_rmse": 0.0012535983696579933,
+      "measurement_rmse_before_clip": 0.0012068924261257052,
+      "clipped_fraction": 0.002593994140625
+    },
+    {
+      "run": 3,
+      "base_seed": 20261316,
+      "image": "chelsea",
+      "method": "ddrm_20",
+      "seed": 20261318,
+      "nfe": 20,
+      "seconds": 4.307903999928385,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1758.0,
+      "operator_max_abs_error": 2.384185791015625e-07,
+      "psnr_db": 29.24112927452046,
+      "ssim": 0.7714007496833801,
+      "measurement_rmse": 0.0011925047729164362,
+      "measurement_rmse_before_clip": 0.001192482654005289,
+      "clipped_fraction": 1.0172526041666666e-05
+    },
+    {
+      "run": 3,
+      "base_seed": 20261316,
+      "image": "rocket",
+      "method": "ddrm_20",
+      "seed": 20261319,
+      "nfe": 20,
+      "seconds": 4.47704689996317,
+      "peak_allocated_mib": 1578.67236328125,
+      "peak_reserved_mib": 1758.0,
+      "operator_max_abs_error": 3.5762786865234375e-07,
+      "psnr_db": 30.423923837128427,
+      "ssim": 0.9140010476112366,
+      "measurement_rmse": 0.0009963520569726825,
+      "measurement_rmse_before_clip": 0.0009940650779753923,
+      "clipped_fraction": 0.0001678466796875
+    }
+  ],
+  "per_image": {
+    "astronaut": {
+      "n": 3,
+      "psnr_db": {
+        "mean": 23.798115045549135,
+        "std": 0.04972452900155151,
+        "min": 23.74488046569095,
+        "max": 23.843362644518017
+      },
+      "ssim": {
+        "mean": 0.826646109422048,
+        "std": 0.0013831277243104578,
+        "min": 0.8254745602607727,
+        "max": 0.8281719088554382
+      },
+      "measurement_rmse": {
+        "mean": 0.0018681594325850408,
+        "std": 0.00010409615813653939,
+        "min": 0.0017852257005870342,
+        "max": 0.0019849755335599184
+      },
+      "seconds": {
+        "mean": 4.8498279333580285,
+        "std": 0.37215859048889915,
+        "min": 4.4895603999029845,
+        "max": 5.23283480014652
+      }
+    },
+    "coffee": {
+      "n": 3,
+      "psnr_db": {
+        "mean": 27.417084475947615,
+        "std": 0.05384890813159657,
+        "min": 27.3638723862907,
+        "max": 27.471548375013676
+      },
+      "ssim": {
+        "mean": 0.8577834367752075,
+        "std": 0.0018787105513686031,
+        "min": 0.8556268215179443,
+        "max": 0.8590649962425232
+      },
+      "measurement_rmse": {
+        "mean": 0.0012227764430766304,
+        "std": 2.669268283498429e-05,
+        "min": 0.0012072883546352386,
+        "max": 0.0012535983696579933
+      },
+      "seconds": {
+        "mean": 4.472442033390204,
+        "std": 0.20324746662467993,
+        "min": 4.240316500188783,
+        "max": 4.6184687002096325
+      }
+    },
+    "chelsea": {
+      "n": 3,
+      "psnr_db": {
+        "mean": 29.177130269550577,
+        "std": 0.06012670922408823,
+        "min": 29.121821612549294,
+        "max": 29.24112927452046
+      },
+      "ssim": {
+        "mean": 0.7704414129257202,
+        "std": 0.0008529259617959315,
+        "min": 0.7697687745094299,
+        "max": 0.7714007496833801
+      },
+      "measurement_rmse": {
+        "mean": 0.001184563113686939,
+        "std": 8.959752570864582e-06,
+        "min": 0.0011748499237000942,
+        "max": 0.0011925047729164362
+      },
+      "seconds": {
+        "mean": 4.680413466567795,
+        "std": 0.32963549419812516,
+        "min": 4.307903999928385,
+        "max": 4.9343961998820305
+      }
+    },
+    "rocket": {
+      "n": 3,
+      "psnr_db": {
+        "mean": 30.256116200951197,
+        "std": 0.1480888002285844,
+        "min": 30.14373887440999,
+        "max": 30.423923837128427
+      },
+      "ssim": {
+        "mean": 0.9117117722829183,
+        "std": 0.002181496836793708,
+        "min": 0.9096570014953613,
+        "max": 0.9140010476112366
+      },
+      "measurement_rmse": {
+        "mean": 0.0009853931842371821,
+        "std": 9.705688700221942e-06,
+        "min": 0.0009778820676729083,
+        "max": 0.0009963520569726825
+      },
+      "seconds": {
+        "mean": 4.635709899943322,
+        "std": 0.26816955828640104,
+        "min": 4.47704689996317,
+        "max": 4.945333499927074
+      }
+    }
+  },
+  "per_run": [
+    {
+      "run": 1,
+      "base_seed": 20261116,
+      "psnr_db": 27.606568404797176,
+      "ssim": 0.8416455835103989,
+      "seconds": 4.917776349931955
+    },
+    {
+      "run": 2,
+      "base_seed": 20261216,
+      "psnr_db": 27.671009208107215,
+      "ssim": 0.8409913331270218,
+      "seconds": 4.682311700016726
+    },
+    {
+      "run": 3,
+      "base_seed": 20261316,
+      "psnr_db": 27.70875688109451,
+      "ssim": 0.8423001319169998,
+      "seconds": 4.378706949995831
+    }
+  ],
+  "across_run_means": {
+    "psnr_db": {
+      "mean": 27.662111497999632,
+      "std": 0.05167202440258678
+    },
+    "ssim": {
+      "mean": 0.8416456828514735,
+      "std": 0.0006543994006441891
+    },
+    "seconds": {
+      "mean": 4.659598333314837,
+      "std": 0.2702515074094393
+    }
+  }
+}
