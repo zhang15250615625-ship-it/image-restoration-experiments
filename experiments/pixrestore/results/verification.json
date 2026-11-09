@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "rows_verified": 48,
+  "float_model_outputs_verified": 36,
+  "max_psnr_abs_error": 0.0,
+  "max_ssim_abs_error": 0.0,
+  "checks": [
+    "input SHA256",
+    "CSV versus JSON",
+    "float-output metrics",
+    "saved PNG quantization",
+    "seed mapping",
+    "NFE",
+    "repeat timing medians",
+    "aggregate means",
+    "seed sample standard deviations",
+    "router shape/normalization"
+  ],
+  "limitation": "Recomputes archived evidence on CPU; does not independently rerun the GPU model or validate a population-level paper claim."
+}

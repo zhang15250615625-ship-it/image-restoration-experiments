@@ -6,8 +6,28 @@
   },
   {
     "path": ".gitignore",
-    "bytes": 239,
-    "sha256": "489f481c5383d1a8ba27c95ace919e1d04ef6fb58395288d16f367fa5ca9b155"
+    "bytes": 263,
+    "sha256": "3b716d5a4b99951cc4129a1449012fead648584ee54ae021f2fb175ef7928d8a"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3050,
+    "sha256": "716fed8adf90d3c43fc09338963fcad3a4025c0829bd1027a621c71e62881a26"
+  },
+  {
+    "path": "experiments/ddrm/README.md",
+    "bytes": 6836,
+    "sha256": "b3a6af2954fdc5d74e0ed5e0cae39bd652024e87a82039707434c471984046e0"
+  },
+  {
+    "path": "experiments/ddrm/REFLECTIONS.md",
+    "bytes": 1675,
+    "sha256": "9cbea5ea872102247279fe89a2299fb03c68993bd45398a59295f5b7afc931db"
+  },
+  {
+    "path": "experiments/ddrm/RESULTS_ANALYSIS.md",
+    "bytes": 3499,
+    "sha256": "250cbae43695ec816438d5bc8a0fe4e1641f10c21334f42ab40a5c9113bf8e00"
   },
   {
     "path": "experiments/ddrm/checkpoint_manifest.json",
@@ -53,16 +73,6 @@
     "path": "experiments/ddrm/prepare_inputs.py",
     "bytes": 1552,
     "sha256": "ea8b34fb31f80e88e43da4beeb39cbb467bdcbd85bb8839f67cea62d3825d8ab"
-  },
-  {
-    "path": "experiments/ddrm/README.md",
-    "bytes": 6836,
-    "sha256": "b3a6af2954fdc5d74e0ed5e0cae39bd652024e87a82039707434c471984046e0"
-  },
-  {
-    "path": "experiments/ddrm/REFLECTIONS.md",
-    "bytes": 1675,
-    "sha256": "9cbea5ea872102247279fe89a2299fb03c68993bd45398a59295f5b7afc931db"
   },
   {
     "path": "experiments/ddrm/requirements.txt",
@@ -333,11 +343,6 @@
     "path": "experiments/ddrm/results/summary.json",
     "bytes": 13115,
     "sha256": "d0bacc2603661421b8697900ad0548c78c1efc33ab04f03eb3e37ffee211f16a"
-  },
-  {
-    "path": "experiments/ddrm/RESULTS_ANALYSIS.md",
-    "bytes": 3499,
-    "sha256": "250cbae43695ec816438d5bc8a0fe4e1641f10c21334f42ab40a5c9113bf8e00"
   },
   {
     "path": "experiments/ddrm/results_seed2/arrays/astronaut_bicubic.npy",
@@ -725,18 +730,738 @@
     "sha256": "e3508ed0efd8b7122442acc775444034861733038159f2e6998408d875ee5d09"
   },
   {
-    "path": "licenses/ddrm-MIT.txt",
-    "bytes": 1069,
-    "sha256": "b98527d06896a93b7a435b7425aa9832a1fe991aa14f0513599976ecc1c234e5"
+    "path": "experiments/pixrestore/README.md",
+    "bytes": 9301,
+    "sha256": "b8d680966a9abb9ed74e90598e74a23c02f7033529ce96295fb7df6ead6ef522"
+  },
+  {
+    "path": "experiments/pixrestore/REFLECTIONS.md",
+    "bytes": 2532,
+    "sha256": "5f15e36b3dffbfc0d69f85eb883d032008ad295f904e4a9c7d107b49ed6cf6a6"
+  },
+  {
+    "path": "experiments/pixrestore/RESULTS_ANALYSIS.md",
+    "bytes": 7335,
+    "sha256": "53e892d7fade91d975ac284aed79d8affdf2bc483674a03102350eaf5723b979"
+  },
+  {
+    "path": "experiments/pixrestore/data/gt/astronaut.png",
+    "bytes": 424520,
+    "sha256": "2418889d0d83962d51facc3832b55cf1849690018a1e873d1c551146555cd02f"
+  },
+  {
+    "path": "experiments/pixrestore/data/gt/chelsea.png",
+    "bytes": 362574,
+    "sha256": "becb107ce377b5e0feb254529a9109126da96b721691e1ae06465b1d1e205be8"
+  },
+  {
+    "path": "experiments/pixrestore/data/gt/coffee.png",
+    "bytes": 391117,
+    "sha256": "34f0102a7fb3e1fecdb5db5fad5e871a5b50e8b78ad67aa7c426126e0e64d9eb"
+  },
+  {
+    "path": "experiments/pixrestore/data/gt/rocket.png",
+    "bytes": 217975,
+    "sha256": "b051153d817a80f9f65c8f486349fe117511074d50f7577d0abf7874ea85fcae"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/gaussian25/astronaut.png",
+    "bytes": 698362,
+    "sha256": "c9df53b459fe46575257a62185a2ae4d504ab3eb521039ba734c2a08ac0d3fa7"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/gaussian25/chelsea.png",
+    "bytes": 712055,
+    "sha256": "bca178c3d3fabeac43e8aa054eceb5f0a52a806fbc121bd8ecc37b6ff042c229"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/gaussian25/coffee.png",
+    "bytes": 694909,
+    "sha256": "77d361b913faf783a05353ca2256a1b3297c07297d134b55fcbd1ff5eac6235e"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/gaussian25/rocket.png",
+    "bytes": 710637,
+    "sha256": "445e977fbf3986bcfd45c62ae65eb6b543711d66d14592aac64cbdc1f1f6d511"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/jpeg10/astronaut.png",
+    "bytes": 199388,
+    "sha256": "af5474da157e01daca92a99a0f7fea8b03b1817cd991e062a6a16a18e3f81b23"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/jpeg10/chelsea.png",
+    "bytes": 135354,
+    "sha256": "1f9e69732013abd9eea33ed2bad9cb665313878afb94d6fa87a10da59d323121"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/jpeg10/coffee.png",
+    "bytes": 166769,
+    "sha256": "0b55799c67d12bf3b1ab4ab6daa0eaea0fc2078a372f790bf316814c096b07d1"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/jpeg10/rocket.png",
+    "bytes": 56578,
+    "sha256": "c0e0bf84b4c37369a175d9c44c2b19dbf38aab0b79dbc4d95856047e9946bd7a"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/sr4/astronaut.png",
+    "bytes": 251088,
+    "sha256": "fd7e795a7c96c399009ae8daebcae6481c2c11b99aed7927bd2c5e84e4137bd3"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/sr4/astronaut_observation128.png",
+    "bytes": 31551,
+    "sha256": "12147f4cc7abe2bef38bb994010661e1de167a59cd8cb498e8f40ddb08277479"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/sr4/chelsea.png",
+    "bytes": 248223,
+    "sha256": "6c1ba3ca5bb7d1139b4a854bea502492c894df210dc1436f1c4d90e0c36c4098"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/sr4/chelsea_observation128.png",
+    "bytes": 31938,
+    "sha256": "36389868fa7013d67353f3ee555a59f8019a09f5c04592388039262eeed7be0f"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/sr4/coffee.png",
+    "bytes": 233109,
+    "sha256": "ccdb8d90704249875fe8995bfaccf64217773639d0844b494b48174b70b68fda"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/sr4/coffee_observation128.png",
+    "bytes": 30353,
+    "sha256": "df5899f1abb72cf859724a13419b44ef743622f363bc882a06348f465ebd438f"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/sr4/rocket.png",
+    "bytes": 102731,
+    "sha256": "83599d36f8832c83f29ed548f98e86bc7cbc75491ab4c3bdc34c54540ca8631d"
+  },
+  {
+    "path": "experiments/pixrestore/data/lq/sr4/rocket_observation128.png",
+    "bytes": 18585,
+    "sha256": "e270f1d7a15b75c1ef7983a9ced60600b390a49769c921a77a6126d40f453249"
+  },
+  {
+    "path": "experiments/pixrestore/data/manifest.json",
+    "bytes": 8892,
+    "sha256": "dc04f44c35e6fc0c281670380477924a83422a18763eb81949ac3b2ff6b79ae1"
+  },
+  {
+    "path": "experiments/pixrestore/download_weights.py",
+    "bytes": 2515,
+    "sha256": "9feb30d5169c15159a9205c6a2a26c39e1d4c4a5fbe78fe15fea30af060c3d53"
+  },
+  {
+    "path": "experiments/pixrestore/make_figures.py",
+    "bytes": 5323,
+    "sha256": "2208f67fda703d8791dc21f1d9045d427cd05ccf2237543588eb05a5d4de16e5"
+  },
+  {
+    "path": "experiments/pixrestore/prepare_inputs.py",
+    "bytes": 3933,
+    "sha256": "f4a7605b7ce01114f4001ad94c76697754ef1b6c7423179c300496280611b6d3"
+  },
+  {
+    "path": "experiments/pixrestore/requirements-cpu.txt",
+    "bytes": 163,
+    "sha256": "4435aca15a197168def37d811b01123ef903de373d86bab64c507f712dc0d1e3"
+  },
+  {
+    "path": "experiments/pixrestore/requirements.txt",
+    "bytes": 417,
+    "sha256": "2f6bd2e978fd71208e11063590c911eb2176d56a3b36e903cbed0fd8b5449a13"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/astronaut_gaussian25_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "7855c1b884cd9c36ec3d8bd4c7650bfeedfe315ff19b866dbe7b64413db292c1"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/astronaut_gaussian25_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "72f1e24754e2bf376e72a37d3fae7662225c50c0b3bf63f26813287a352d1a8a"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/astronaut_gaussian25_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "0a30ecbad8f6d2b49a1bb31eb94fc814f09d74e3a9a9951b5bb3cee38e0d23eb"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/astronaut_jpeg10_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "6fa9e66c959e44d46f9bcd63f7310033b644b6d13bb98c713fd8b12c9359089b"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/astronaut_jpeg10_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "a478184a2b738c848356d5197b657185ddc1fd988fdd2d5e4daf931caae9ee24"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/astronaut_jpeg10_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "40eb15257984fa2b2ae079d866eac5ff387f3da42e0778ca2cf42299be1666c7"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/astronaut_sr4_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "23b042cd26ef58d28f77cddbd72c92cf89679572df6c72bc4b07c0ef8e1d21b3"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/astronaut_sr4_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "bf74d2c31c07c637b581859b51fd5a91b42f0ace16bc9e02bcf83bf8a1658f86"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/astronaut_sr4_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "aa79e209660a495033d0242f8bf6ac03f7c765f1023c483305f2ebcb91e9d106"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/chelsea_gaussian25_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "df215a4935d9fc1662ab56c5133b2f7f5df11a8e4da0479d72e9c57b966ca285"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/chelsea_gaussian25_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "995d036a4354fbd732537234d87818cede97c69ea211ef644061b82d02e78ce0"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/chelsea_gaussian25_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "08e7a67cbb5a4b3c5ad49f265ec775bc758b6af146de62137268d5c4d3b8970f"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/chelsea_jpeg10_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "f49c65193da83980d8e09b8d4b6faa79ee2f3b97d782b63f02feb64a12ad7f85"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/chelsea_jpeg10_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "c6fdc807029f1e7464110e314d2d6f2fed1de52209dae4e448e9657c769b82c0"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/chelsea_jpeg10_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "e13f97e6e6e9fd43b57052fd84a3466f597dcdfc444e389e304bf5fe6a01ea1b"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/chelsea_sr4_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "58ce8786ebb44ed69eefaab2b26fd1ce3858fa7337bfd2d9485e4d802ac11ddf"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/chelsea_sr4_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "a4fa951f06be575f1b33b736cb302bb316724aa136dd71e269c307e07596e831"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/chelsea_sr4_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "15ca9bb87895c950afa4eb1583a7cd19f276da8e7af9ccdd4068471c13934d4e"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/coffee_gaussian25_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "3666675a8161d9c9db245cc79885ac84faca6ffa0ad53c80e3c26a10f17f8ffd"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/coffee_gaussian25_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "44cd4f8fc9fdcb3576b9b588674bf12ba1a83da690fb8b95340df8ac1f7a0809"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/coffee_gaussian25_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "f5420a13b98d01b2b409c57057fedf669be99b469b309421df6b61c3c58afe71"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/coffee_jpeg10_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "4d76690622f850ae4ac5707120b9380fe3322ec1299571635bda3fd0a993b618"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/coffee_jpeg10_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "a6c324d0dc17c8529410509521cfee97214d20ef379e9e985261dc9d7e29a6ac"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/coffee_jpeg10_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "55c7394eb011cb122746228f68158228c8cacf9af29751acc68abefd752b8a79"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/coffee_sr4_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "b9bd4b1c5ed39126d0a486b7ed82999f535aef5afb2f2597f61f57cf3994a12d"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/coffee_sr4_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "582b027fc20d5e519cc883a9af3b765591c15ddceffd92b676b8abdcae3fc152"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/coffee_sr4_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "9a1f01496f685cf84e2f0937dd1fd63cced5ab26e4ac825f568946c7582acd97"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/rocket_gaussian25_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "278bc36e0c0b14ae1cd09f2cdf7920d6ed4c8f6b78174d1b3f6c6fc315fe0f93"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/rocket_gaussian25_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "2cffbc7482fc56e7e9c54692ab95c8e1315e634f22dd2ae2307d538a3c4630c6"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/rocket_gaussian25_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "dd9752dbcd874bb724a1fab7adac534df90aaec9513a8e04894d5259a72e96f4"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/rocket_jpeg10_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "c75544b4d60a443f4ed6f5e622286ca6ad4f19009a07f24e52914b63f8e780aa"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/rocket_jpeg10_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "57df4b3a5b27613c86309d395b9f373c9b8bcfaa863c2da98b517db4afe8552a"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/rocket_jpeg10_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "bc0c8f98c707e8b8b5477bf1166f59a65990ab739839fab9d5d1799677491d0c"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/rocket_sr4_pixrestore_s_seed20261116.npy",
+    "bytes": 3145856,
+    "sha256": "c758beb4c012601602425b59e0f8525b2879506f822dda112f5aa28c016613b3"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/rocket_sr4_pixrestore_s_seed20261216.npy",
+    "bytes": 3145856,
+    "sha256": "cfbfa82e0895679246e77ef6fbbc10be1b528c89fad8b21bdf512140eff5b044"
+  },
+  {
+    "path": "experiments/pixrestore/results/arrays/rocket_sr4_pixrestore_s_seed20261316.npy",
+    "bytes": 3145856,
+    "sha256": "268c6a398ffb26aff7d5e6b91c66eac2d9f20fb55ea0a17a2dd2c56830306f63"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/comparison_gaussian25.png",
+    "bytes": 5709311,
+    "sha256": "b75c2fd96de8a3b1cd1801dc5108028558a27a6ad404cc931bc0c0817d19d118"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/comparison_jpeg10.png",
+    "bytes": 3466770,
+    "sha256": "f16d90e5a093af4f9706a09e524f3fef4aeff361ffa70a1f5ce8e1c223b3bc1a"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/comparison_sr4.png",
+    "bytes": 3791327,
+    "sha256": "cd37b6415acdd613d314aaad9a8d15709fce20e8612ef551ec2a86112f8edaad"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/psnr_gain.png",
+    "bytes": 47335,
+    "sha256": "95d023b32ac2faca3fbbe82a03d34a0fdd4e2cb64842b2cfca005fabe2c89c7e"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/quality_comparison.png",
+    "bytes": 86528,
+    "sha256": "c70627d0095aedbaa82fa1dd94c096436b89f29a2e7440e294fe01df0c69d782"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/router_heatmap.png",
+    "bytes": 91513,
+    "sha256": "893cf0ea0d9d4e004c895047fd6b4821d44d3bb45b8188ab3258aee58ca011e5"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/router_task_means.json",
+    "bytes": 1428,
+    "sha256": "163b5c17f0511fe6323af1d62b02aa61bed4dab7c808fe789bcc23fb9fe84286"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_gaussian25_astronaut.png",
+    "bytes": 1643636,
+    "sha256": "dc780c1e41e46532e8877b548fca26975c690061ff747a1c2075a3ef797d0f9a"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_gaussian25_chelsea.png",
+    "bytes": 1621391,
+    "sha256": "989e957c3c8a76cafc8567f776658fc4aa8695dc7d877e800a83f710ebf3d5d0"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_gaussian25_coffee.png",
+    "bytes": 1609061,
+    "sha256": "2284ef377a2683255babfe30fb97befbadcd16062d7b93d164ec77c8da3b5fc7"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_gaussian25_rocket.png",
+    "bytes": 1373302,
+    "sha256": "93f501b3e8b191cd25ab2b35f19748f7681a178c8ec0fad8072edb5edaa7e045"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_jpeg10_astronaut.png",
+    "bytes": 1046263,
+    "sha256": "9e74e928f31c62f30dd6ffad66e6204c6a8073f9874990fceb57a21a245f765a"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_jpeg10_chelsea.png",
+    "bytes": 904455,
+    "sha256": "1e9a907431a79a725fd004fcfa10380421f9390920e599355cf6bdfe00068ee7"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_jpeg10_coffee.png",
+    "bytes": 949384,
+    "sha256": "0829ec022a265bef9bc60050e70e2fd9472f5d022088646dd5901254e315108c"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_jpeg10_rocket.png",
+    "bytes": 579122,
+    "sha256": "f97e436e07572b2d5db45175e7c7dacb2048f9d40a9ac65b6b5c880bae2caa12"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_sr4_astronaut.png",
+    "bytes": 1108840,
+    "sha256": "efbbac15684500325eae2f3907cce1f74f813072a6193c43f273016070754f7c"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_sr4_chelsea.png",
+    "bytes": 1059890,
+    "sha256": "14f2fb4a3d08e7be83c28b8f407af959941ba583ad3be2060494c99711e201c4"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_sr4_coffee.png",
+    "bytes": 1015652,
+    "sha256": "7ac2dc10c5afd0e3345d7bc3d23b98c7e074e84f769dd1e643144a35e4561274"
+  },
+  {
+    "path": "experiments/pixrestore/results/figures/strip_sr4_rocket.png",
+    "bytes": 636140,
+    "sha256": "481c8b8d13c18c32be620963db452e10ee7ecd7220359160504e71541fc2d6b1"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_gaussian25_input.png",
+    "bytes": 698362,
+    "sha256": "c9df53b459fe46575257a62185a2ae4d504ab3eb521039ba734c2a08ac0d3fa7"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_gaussian25_pixrestore_s_seed20261116.png",
+    "bytes": 417792,
+    "sha256": "eed7f275a77e871e413c27972bf77a97815f47c88603074c2bfa7ffee5e3ffc7"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_gaussian25_pixrestore_s_seed20261216.png",
+    "bytes": 417934,
+    "sha256": "ca44a24e4749b6ff423c97c755d3f11363ea47c9fb91464201c2e3d079465b57"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_gaussian25_pixrestore_s_seed20261316.png",
+    "bytes": 417414,
+    "sha256": "bfeddfbc89fdcacea518789e777b3c1bc918ef2f7a38f4197b0577be73520fc3"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_gt.png",
+    "bytes": 424520,
+    "sha256": "2418889d0d83962d51facc3832b55cf1849690018a1e873d1c551146555cd02f"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_jpeg10_input.png",
+    "bytes": 199388,
+    "sha256": "af5474da157e01daca92a99a0f7fea8b03b1817cd991e062a6a16a18e3f81b23"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_jpeg10_pixrestore_s_seed20261116.png",
+    "bytes": 396305,
+    "sha256": "70f67c5cd342272bdad93111ffc21ccb2a7ecab725782de8d065549da597c976"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_jpeg10_pixrestore_s_seed20261216.png",
+    "bytes": 396172,
+    "sha256": "4b0a7642a63a6b01d8d47b598d794e902ad3935982638fa851a5b265975b2917"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_jpeg10_pixrestore_s_seed20261316.png",
+    "bytes": 396237,
+    "sha256": "9b541a5c8da175c4fbec0266e49d19015257b815f4974130925cdb77dbf7829b"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_sr4_input.png",
+    "bytes": 251088,
+    "sha256": "fd7e795a7c96c399009ae8daebcae6481c2c11b99aed7927bd2c5e84e4137bd3"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_sr4_pixrestore_s_seed20261116.png",
+    "bytes": 408724,
+    "sha256": "f6ee6492ae389c5846154e0f497637676476f0536edb7d1a528180de58fb7582"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_sr4_pixrestore_s_seed20261216.png",
+    "bytes": 408571,
+    "sha256": "1469486524e0c76a30bdfcb55ac2f43833830aa12fcd7fa2c1e79fb6a0646918"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/astronaut_sr4_pixrestore_s_seed20261316.png",
+    "bytes": 408666,
+    "sha256": "23171904f9677b3bb5cf3cb8064ec653a540a68071612e0497e526aba4c471b7"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_gaussian25_input.png",
+    "bytes": 712055,
+    "sha256": "bca178c3d3fabeac43e8aa054eceb5f0a52a806fbc121bd8ecc37b6ff042c229"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_gaussian25_pixrestore_s_seed20261116.png",
+    "bytes": 389698,
+    "sha256": "b08344cb497716d9900eb78fe38eac66259cae3d84cdedafd2054d040daa0fb7"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_gaussian25_pixrestore_s_seed20261216.png",
+    "bytes": 389479,
+    "sha256": "e76c910e5b97802ac86fb7fc0094ccba68ed50e82e95fe504a95183559a5631c"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_gaussian25_pixrestore_s_seed20261316.png",
+    "bytes": 389509,
+    "sha256": "0d03cd323577835e6c143568b58c29d4beee757231dcdb6041a08ec085e6371d"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_gt.png",
+    "bytes": 362574,
+    "sha256": "becb107ce377b5e0feb254529a9109126da96b721691e1ae06465b1d1e205be8"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_jpeg10_input.png",
+    "bytes": 135354,
+    "sha256": "1f9e69732013abd9eea33ed2bad9cb665313878afb94d6fa87a10da59d323121"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_jpeg10_pixrestore_s_seed20261116.png",
+    "bytes": 372284,
+    "sha256": "77c69463b851c30e21256f5872b687a7cc1297eb612073e86a2a9c8eab58d7a6"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_jpeg10_pixrestore_s_seed20261216.png",
+    "bytes": 371782,
+    "sha256": "34859845254a1be482af8e07db6e047be466334bb36c8060a118525b37253c8a"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_jpeg10_pixrestore_s_seed20261316.png",
+    "bytes": 371777,
+    "sha256": "6850d352127087c5bb240199bada6f5cd46d106d9d593f3e8164269865121053"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_sr4_input.png",
+    "bytes": 248223,
+    "sha256": "6c1ba3ca5bb7d1139b4a854bea502492c894df210dc1436f1c4d90e0c36c4098"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_sr4_pixrestore_s_seed20261116.png",
+    "bytes": 419500,
+    "sha256": "59dd41137db2a68d6c430a541cbfdd142b7fb3af1805908fdb6cd2a31774c1ab"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_sr4_pixrestore_s_seed20261216.png",
+    "bytes": 419313,
+    "sha256": "192fda3b61354cc89d9a149d8a155314228e305cb7f89c6f6bfced12654820d9"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/chelsea_sr4_pixrestore_s_seed20261316.png",
+    "bytes": 419571,
+    "sha256": "785a3a0f9b02c91ad6cd00487b8b8495fd66ca2429dc9408a5c8b63ffac4c570"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_gaussian25_input.png",
+    "bytes": 694909,
+    "sha256": "77d361b913faf783a05353ca2256a1b3297c07297d134b55fcbd1ff5eac6235e"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_gaussian25_pixrestore_s_seed20261116.png",
+    "bytes": 403789,
+    "sha256": "43c73b40160f7371244772cc241721a006b135972f4ac37fa275bda094b3510b"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_gaussian25_pixrestore_s_seed20261216.png",
+    "bytes": 403578,
+    "sha256": "086a9cce1d8aa20bc501e337e79131353a47e68fd6f6a0ffda55c51aecbd4e1a"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_gaussian25_pixrestore_s_seed20261316.png",
+    "bytes": 403825,
+    "sha256": "ff8417a3f87d5831076266a117ff82d53f57cd0a9a561ab0e5ede0decb6f023f"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_gt.png",
+    "bytes": 391117,
+    "sha256": "34f0102a7fb3e1fecdb5db5fad5e871a5b50e8b78ad67aa7c426126e0e64d9eb"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_jpeg10_input.png",
+    "bytes": 166769,
+    "sha256": "0b55799c67d12bf3b1ab4ab6daa0eaea0fc2078a372f790bf316814c096b07d1"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_jpeg10_pixrestore_s_seed20261116.png",
+    "bytes": 367451,
+    "sha256": "b8c3704abc0697975665331762c3cd8ddab2c2ea8171a96f6db8cbb8b28bc91d"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_jpeg10_pixrestore_s_seed20261216.png",
+    "bytes": 367580,
+    "sha256": "996cf214aed9555bc232f380648d0e24035a10b827a75129cefc3c24da35603d"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_jpeg10_pixrestore_s_seed20261316.png",
+    "bytes": 367427,
+    "sha256": "e7137d8307f5e2b21bc58c8d816ad34965755f276072836196eb521f4ddbb37d"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_sr4_input.png",
+    "bytes": 233109,
+    "sha256": "ccdb8d90704249875fe8995bfaccf64217773639d0844b494b48174b70b68fda"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_sr4_pixrestore_s_seed20261116.png",
+    "bytes": 371399,
+    "sha256": "8522710372bc3824ce0eb28e8032e3aac24d928a736c5c1a63a229f7a09c4470"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_sr4_pixrestore_s_seed20261216.png",
+    "bytes": 371089,
+    "sha256": "46a03a4942629c6304c7de1824d1f35a1032f28577531e7c88294c916af93a45"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/coffee_sr4_pixrestore_s_seed20261316.png",
+    "bytes": 371256,
+    "sha256": "81a17e58c48779864de831aa288cc3ac1cfe2ec5de82a54dfe69a30d85fac6d8"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_gaussian25_input.png",
+    "bytes": 710637,
+    "sha256": "445e977fbf3986bcfd45c62ae65eb6b543711d66d14592aac64cbdc1f1f6d511"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_gaussian25_pixrestore_s_seed20261116.png",
+    "bytes": 326681,
+    "sha256": "9f4102436c6d619ec8b424294665b8ed98077df521a8b84cfc77b833953a9ee1"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_gaussian25_pixrestore_s_seed20261216.png",
+    "bytes": 326427,
+    "sha256": "68b4743694ddd8fa3327cb89aeb1657384ec70679136d77d7bb078a37a6b43ee"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_gaussian25_pixrestore_s_seed20261316.png",
+    "bytes": 326523,
+    "sha256": "594c538353c8cc1c1cebaad721758f582e6525b671fcdc8595c6ccc52038dba0"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_gt.png",
+    "bytes": 217975,
+    "sha256": "b051153d817a80f9f65c8f486349fe117511074d50f7577d0abf7874ea85fcae"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_jpeg10_input.png",
+    "bytes": 56578,
+    "sha256": "c0e0bf84b4c37369a175d9c44c2b19dbf38aab0b79dbc4d95856047e9946bd7a"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_jpeg10_pixrestore_s_seed20261116.png",
+    "bytes": 280682,
+    "sha256": "0d437ada0507c272da8c4e26bf24138c216a11282e9e6e8a32e2e95ae78bdce1"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_jpeg10_pixrestore_s_seed20261216.png",
+    "bytes": 280236,
+    "sha256": "c4d0820aa41af42f34859cd0248e3d9d02d11fa9a76a5d6ca7ebc0a175ea2125"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_jpeg10_pixrestore_s_seed20261316.png",
+    "bytes": 280518,
+    "sha256": "2efb3ea8b8b8804cf812a5063607f33270dddf6d07fc05d7c1e706eef076c40a"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_sr4_input.png",
+    "bytes": 102731,
+    "sha256": "83599d36f8832c83f29ed548f98e86bc7cbc75491ab4c3bdc34c54540ca8631d"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_sr4_pixrestore_s_seed20261116.png",
+    "bytes": 286411,
+    "sha256": "1a9cd03d8230096a5ae6d6da10d04e486e4ca2057de02798b0b9211e5fda903f"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_sr4_pixrestore_s_seed20261216.png",
+    "bytes": 286168,
+    "sha256": "2cd265ca2776eec000f846826f4e8b12ff2e28697d895cd3144869b1ce89121d"
+  },
+  {
+    "path": "experiments/pixrestore/results/images/rocket_sr4_pixrestore_s_seed20261316.png",
+    "bytes": 286477,
+    "sha256": "35e7231b8463e4e142de9b1ad0ed93b8079e373d2249a571b5f438de6bb7e6f3"
+  },
+  {
+    "path": "experiments/pixrestore/results/metrics.csv",
+    "bytes": 13779,
+    "sha256": "ffb709b303aff4df248220612d268c74acdd0960aa355f4a236178226816981e"
+  },
+  {
+    "path": "experiments/pixrestore/results/router_weights.json",
+    "bytes": 10019,
+    "sha256": "8d6178c07f0ce7fc19c93919af7e7d18d093ee198df756056aa2ff882fafc535"
+  },
+  {
+    "path": "experiments/pixrestore/results/run_config.json",
+    "bytes": 5795,
+    "sha256": "9b354c7665a4aa84890e83145c888b1902e711c2cd90cf2256edd5b47e0d3965"
+  },
+  {
+    "path": "experiments/pixrestore/results/summary.json",
+    "bytes": 44965,
+    "sha256": "080671c2854e30252b8a09e29537505fe4e800baa5d7ae55640100e29514e33a"
+  },
+  {
+    "path": "experiments/pixrestore/results/verification.json",
+    "bytes": 559,
+    "sha256": "ccab59259b6e75aba577927ec345445d0fbdb48d31684b3431c7c85579592a30"
+  },
+  {
+    "path": "experiments/pixrestore/run_experiment.py",
+    "bytes": 13967,
+    "sha256": "ffbcd0c7392df4c23f042c0f164e10e4d5b8b43fa60557a46345d74d7db9744e"
+  },
+  {
+    "path": "experiments/pixrestore/runtime.py",
+    "bytes": 924,
+    "sha256": "99d9084f3e8b8bcc9a05188feeb9b3993f9b7a1f1e95534cf091b42d7e2a8a30"
+  },
+  {
+    "path": "experiments/pixrestore/setup_sources.py",
+    "bytes": 1902,
+    "sha256": "54d5e28d95eb2436fa5995a56b93482397515e406d91d507942c2f8dd5b8ef20"
+  },
+  {
+    "path": "experiments/pixrestore/verify_results.py",
+    "bytes": 5237,
+    "sha256": "031dc67448a87931499c530febb8ac37f047c088d424bb541ce2f5e728cf416b"
   },
   {
     "path": "licenses/THIRD_PARTY_NOTICES.md",
-    "bytes": 918,
-    "sha256": "563611784f71b696afc5eece358d2aa7f738bba3a5eff4e6a4c9822dde797ee0"
+    "bytes": 1978,
+    "sha256": "0a63db3a1035292037d94b3e9daa7b033eb471a023ed1f873e12003b521a6a77"
   },
   {
-    "path": "README.md",
-    "bytes": 2566,
-    "sha256": "945370da4dea15f5fa67573e96682b798014f34a970ae26998935a12e5791cfe"
+    "path": "licenses/ddrm-MIT.txt",
+    "bytes": 1069,
+    "sha256": "b98527d06896a93b7a435b7425aa9832a1fe991aa14f0513599976ecc1c234e5"
   }
 ]

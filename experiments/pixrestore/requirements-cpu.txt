@@ -1,0 +1,6 @@
+# Enough to audit saved arrays and regenerate figures; no model or GPU required.
+numpy==1.25.2
+Pillow==10.4.0
+scipy==1.9.3
+scikit-image==0.24.0
+matplotlib==3.10.8
